@@ -11,5 +11,5 @@ print(b.strip()[-1])
 print(b.strip())
 
 
-
+# eeee11111
 ## rr

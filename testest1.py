@@ -26,20 +26,3 @@ merInput={
 
 emotion_voice = 'neutral'
 mer_activation = 0
-
-
-for i, emotion in enumerate(merInput['output']):
-    for k in emotion.keys():
-        if emotion[k]>mer_activation:
-            mer_activation = emotion[k]
-            emotion_voice = tagmer[k]
-            
-            
-print(emotion_voice)
-print(mer_activation)
-        
-        
-
-# eeee11111
-## rr
-### rrrrrrrrrrrrrrrrrr

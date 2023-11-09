@@ -17,7 +17,6 @@ source = '(생각하는 표정을 지으며) "인세셔션"은 스토리가 흥�
 action = _handle_speech_act(source)
 
 print(source.replace("(" + action + ") ", ''))
-        
+print('here is copy')
 print(source)
 
-# test 1
